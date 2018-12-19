@@ -1,0 +1,58 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('header.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+ }
+
+h1 {
+  font-size: 12vw;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 5vw;
+  color: white;
+  letter-spacing: 3px;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 12s;
+  background-color: orange;
+  animation-timing-function: linear;
+}
+ul a {
+  color: white;
+}
+
+.btn {
+  background-color: green; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 2em;
+  box-shadow: 3px 3px rgba(0,0,0,0.3), 7px 7px rgba(0,0,0,0.2);
+}
+
+p {
+  color:  white;
+  font-size: 20px;
+}
+
+@keyframes example {
+  25%   {background-color: green;}
+  50%  {background-color: blue;}
+  75%  {background-color: red;}
+  100% {background-color: orange;
+}
